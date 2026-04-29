@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .gallery > div  */
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr;
+  gap: 12px;
+  background: rgb(255, 255, 255);
+  /* border: 2px dashed rgb(200, 200, 200); */
+  border-radius: 10px;
+  padding: 12px;
+  grid-template-areas:
+    "ph1 ph2 ph3"
+    "ph4 ph5 ph6";
+}
+
+/* .gallery .ph1 {} */
+.ph1 {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 14px;
+  border-radius: 4px;
+  background: rgb(59, 130, 246);
+  box-sizing: border-box;
+}
+
+.ph2 {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 14px;
+  border-radius: 4px;
+  background: rgb(139, 92, 246);
+  box-sizing: border-box;
+}
+
+.ph3 {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 14px;
+  border-radius: 4px;
+  background: rgb(236, 72, 153);
+  box-sizing: border-box;
+}
+
+.ph4 {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 14px;
+  border-radius: 4px;
+  background: rgb(245, 158, 11);
+  box-sizing: border-box;
+}
+
+.ph5 {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 14px;
+  border-radius: 4px;
+  background: rgb(16, 185, 129);
+  box-sizing: border-box;
+}
+
+.ph6 {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 14px;
+  border-radius: 4px;
+  background: rgb(99, 102, 241);
+  box-sizing: border-box;
+}

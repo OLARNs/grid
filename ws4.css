@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  margin: 24px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.card {
+  background: #e5e7eb;
+  border-radius: 12px;
+  overflow: hidden;
+  padding-bottom: 12px;
+}
+
+.thumb {
+  height: 120px;
+  background: linear-gradient(135deg, rgb(102, 126, 234), rgb(118, 75, 162));
+}
+
+.card h3 {
+  margin: 12px;
+  font-size: 16px;
+}
+
+.card p {
+  margin: 0 12px;
+  color: #2563eb;
+  font-weight: bold;
+}
